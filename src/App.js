@@ -1,6 +1,7 @@
 import "./App.css";
 import Tweet from "./components/Tweet";
 import Tweet2 from "./components/Tweet2";
+import Tweet3 from "./components/Tweet3";
 
 const tweetsArray = [
   {
@@ -39,9 +40,14 @@ function App() {
   return (
     <div className="App">
       <Tweet />
+   
       <Tweet2 tweet={ tweetsArray[0] }></Tweet2>
       <Tweet2 tweet={ tweetsArray[1] }></Tweet2>
       <Tweet2 tweet={ tweetsArray[2] }></Tweet2>
+
+      <Tweet3 tweet={ tweetsArray[0] }></Tweet3>
+      <Tweet3 tweet={ tweetsArray[1] }></Tweet3>
+      <Tweet3 tweet={ tweetsArray[2] }></Tweet3>
     </div>
   );
 }
