@@ -10,7 +10,7 @@ function Tweet2(props) {
       <div className="body">
         <div className="top">
           <span className="user">
-            <span className="name">{props.tweet.user.name}</span>
+            <span className="name">2 {props.tweet.user.name}</span>
             <span className="handle">@{props.tweet.user.handle}</span>
           </span>
 
